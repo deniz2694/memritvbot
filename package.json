@@ -5,7 +5,7 @@
 },
 
 "dependencies": {
-	"twit" : "lastest"
+	"twit" : "2.2.9"
 },
 
 "main" : "server.js"

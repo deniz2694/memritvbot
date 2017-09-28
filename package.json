@@ -1,14 +1,23 @@
 {
-
-"scripts" : {
-  "start" : "node server.js"
-},
-
-"dependencies": {
-	"twit" : "2.2.9"
-},
-
-"main" : "server.js"
-
-
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "twit": "^2.2.9"
+  },
+  "main": "server.js",
+  "name": "bot",
+  "version": "1.0.0",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deniz2694/memritvbot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deniz2694/memritvbot/issues"
+  },
+  "homepage": "https://github.com/deniz2694/memritvbot#readme",
+  "description": ""
 }

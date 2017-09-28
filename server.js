@@ -7,10 +7,6 @@ var fs = require('fs'),
 
 var T = new Twit(config);
 
-function random_from_array(images){
-  return images[Math.floor(Math.random() * images.length)];
-}
-
 function upload_random_image(images){
   console.log('Opening an image...');
   var image_path = path.join(__dirname, '/images/' + random_from_array(images)),
@@ -44,6 +40,10 @@ function upload_random_image(images){
   });
 }
 
+function random_from_array(images){
+  return images[Math.floor(Math.random() * images.length)];
+}
+
 fs.readdir(__dirname + '/images', function(err, files) {
   if (err){
     console.log(err);
@@ -59,3 +59,6 @@ fs.readdir(__dirname + '/images', function(err, files) {
     }, 900000);
   }
 });
+
+
+

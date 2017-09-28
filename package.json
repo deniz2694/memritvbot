@@ -1,4 +1,10 @@
 "scripts" : {
   "start" : "node server.js"
 },
+
+"dependencies": {
+	"twit" : "lastest"
 "main" : "server.js"
+
+
+
